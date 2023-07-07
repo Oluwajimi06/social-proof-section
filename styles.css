@@ -1,0 +1,309 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.bg-2 {
+  position: relative;
+  right: 120px;
+  bottom: 40px;
+}
+
+#bg-2 {
+  position: fixed;
+  left: 400px;
+  top: 100px;
+
+}
+
+.p-2 {
+  position: relative;
+  bottom: 270px;
+  left: 109px;
+  color: hsl(303, 10%, 53%);
+}
+
+.ratings{
+ 
+}
+
+
+
+
+
+
+
+.p-1 {
+  position: relative;
+  bottom: 283px;
+  left: 109px;
+  font-size: 60px;
+  color: hsl(300, 43%, 22%);
+  font-family: 'League Spartan', sans-serif;
+}
+
+#bg {
+  position: fixed;
+
+}
+
+.bg-3 {
+  position: relative;
+  right: 8px;
+  bottom: 20px;
+}
+
+.first {
+  width: 400px;
+  background: #f9f7f9;
+  position: relative;
+  left: 640px;
+  bottom: 500px;
+  height: 40px;
+  border-radius: 10px;
+  padding-bottom: 60px;
+}
+
+#icon-txt {
+  position: relative;
+  left: 170px;
+  font-size: 19px;
+  color: hsl(300, 43%, 22%);
+}
+
+#icon {
+  position: relative;
+  left: 40px;
+  top: 20px;
+}
+
+.second {
+  width: 500px;
+  background: #f9f7f9;
+  height: 40px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 480px;
+  left: 700px;
+  padding-bottom: 60px;
+}
+
+.third {
+  width: 500px;
+  background: #f9f7f9;
+  height: 40px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 460px;
+  left: 750px;
+  padding-bottom: 60px;
+}
+
+.reviews{
+
+}
+
+.first-review {
+  height: 198px;
+  width: 370px;
+  background: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  bottom: 430px;
+  left: 110px;
+  position: relative;
+}
+
+.review-image {
+  border-radius: 50%;
+  position: relative;
+  top: 39px;
+  left: 30px;
+  height: 45px;
+}
+
+.review-txt {
+  position: relative;
+  left: 100px;
+  bottom: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+#review-p {
+  position: relative;
+  left: 100px;
+  bottom: 10px;
+  color: hsl(333, 80%, 67%);
+}
+
+#txt-1 {
+  color: white;
+  position: relative;
+  left: 50px;
+}
+
+.second-review {
+  height: 198px;
+  width: 370px;
+  background: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  position: relative;
+  left: 500px;
+  bottom: 610px;
+}
+
+.third-review {
+  height: 198px;
+  width: 370px;
+  background: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  position: relative;
+  bottom: 780px;
+  left: 890px;
+}
+
+@media screen and (max-width:768px) {
+  body{
+    margin: 10px;
+    overflow-x: hidden;
+    width: 100%;
+    
+  }
+  #bg{
+    position: relative;
+    bottom: 50px;
+    margin:  30px;
+    width: 100%;
+    right: 40px;
+    text-align: center;
+  }
+  .bg-3{
+    background: url("images/bg-pattern-top-mobile.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 200px;
+  }
+  .p-1{
+    position: relative;
+    /* right: 800p;x */
+    left: 0;
+    font-size: 50px;
+  }
+  .p-2 {
+    left: 0;
+    
+  }
+  .ratings{
+    flex-direction: column;
+    margin: 20px;
+  }
+  .first {
+    width: 100%;
+    position: none;
+    left: 0;
+    bottom: 200px;
+  }
+  #icon-txt{
+    position: relative;
+    left: 0;
+    top: 10px;
+  }
+  #icon{
+  position: relative;
+  left: 0;
+  top: 10px;
+  }
+  .second{
+    position: relative;
+    left: 0;
+    width: 100%;
+    bottom: 180px;
+  }
+  .third{
+    position: relative;
+    left: 0;
+    bottom: 150px;
+    width: 100%;
+  }
+  .reviews{
+    flex-direction: column;
+  }
+  .first-review{
+    left: 0;
+    width: 100%;
+    bottom: 100px;
+    position: relative;
+    padding-right:  50px;
+    text-align: center;
+  }
+  .review-txt{
+    left: 100px;
+  }
+  .review-image{
+    position: relative;
+    left: 0;
+    right: 500px;
+    /* right: 280px; */
+  }
+  .second-review{
+    left: 0;
+    width: 100%;
+    padding-right: 50px;
+    bottom: 90px;
+  }
+  .third-review {
+    width: 100%;
+    bottom: 70px;
+    left: 0;
+    padding-right: 50px;
+  }
+  #bg-2{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    right: 500px;
+    width: 100%;
+    
+
+  }
+  .bg-2{
+    background: url("images/bg-pattern-bottom-mobile.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    right: 10px;
+    left: 5px;
+    width: 100%;
+    top: 400px;
+  }
+  #txt-1{
+    left: 0;
+    margin:0 40px;
+    bottom: 20px;
+    width: 100%;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    
+  }
+
+
+
+  
+}
